@@ -1,16 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./src/estilo_html_intermediario.css">
 
     <title>HTML INTERMEDIARIO</title>
 </head>
+
 <body>
-    <h1>HTML INTERMEDIARIO</h1>
-    
+
+    <article>
+
+        Aula 1
+        <h1>Imput Text</h1>
+
+        <input type="text" name="nome" value="" id="nome" placeholder="Escreva seu nome">
+        <input type="text" name="email" value="" id="email" placeholder="Escreva seu e-mail">
+
+    </article>
+
+    <article>
+
+        Aula 2
+        <h1>Imputs Number, Password e Submit</h1>
+
+        <label for="numero">Number</label>
+
+        <input type="number" name="" id="numero"><br><br>
+
+        <label for="senha">Password</label>
+
+        <input type="password" name="" id="senha"><br><br>
+
+        <form>
+            <input type="submit" value="Salvar">
+        </form>
+
+    </article>
+
+    <article>
+
+        Aula 3
+        <h1>Checkbox, Radio</h1>
+
+        <h3>Liguagens de Programação</h3>
+
+        <label for="c#">C#</label>
+        <input type="checkbox" name="linguagensDeProgramacao" id="c#">
+        <br>
+
+        <label for="JavaScript">JavaScript</label>
+        <input type="checkbox" name="linguagensDeProgramacao" id="JavaScript">
+        <br><br>
+
+        <h3>Gênero</h3>
+
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="Genero" id="feminino">
+        <br>
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="Genero" id="masculino">
+
+    </article>
+
+    <article>
+
+        Aula 4
+        <h1>Select</h1>
+
+        <label for="filmes">Filmes</label>
+        <select id="filmes" name="filmes">
+            <option value=""">Selecione um Filme</option>
+            <option value="Senhor dos Anéis">Senhor dos Anéis</option>
+            <option value="Harry Potter">Harry Potter</option>
+            <option value="Mad Max">Mad Max</option>
+            <option value="Vingadores">Vingadores</option>
+        </select><br><br>
+
+        <label for="filmes">Filmes</label>
+        <select id="filmes" name="filmes" multiple>
+            <option value=""">Selecione um Filme</option>
+            <option value="Senhor dos Anéis">Senhor dos Anéis</option>
+            <option value="Harry Potter">Harry Potter</option>
+            <option value="Mad Max">Mad Max</option>
+            <option value="Vingadores">Vingadores</option>
+        </select>
+        
+
+
+    </article>
 </body>
+
 </html>
