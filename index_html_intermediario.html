@@ -90,10 +90,112 @@
             <option value="Mad Max">Mad Max</option>
             <option value="Vingadores">Vingadores</option>
         </select>
-        
-
 
     </article>
+
+    <article>
+
+        Aula 5
+        <h1>Textarea</h1>
+
+        <label for="texto">Texto curto</label><br>
+        <input type="text" name="texto" id="texto"><br><br>
+        <label for="texto">Texto longo</label><br>
+        <textarea name="texto" cols="45" rows="10">
+            Digite sua mensagem aqui.
+        </textarea>
+       
+    </article>
+
+    <article>
+
+        Aula 6
+        <h1>Button</h1>
+
+        <button>
+            Botão
+        </button><br><br>
+
+        <input type="button" value="Clique Aqui" onclick="alert('Olá!')">
+       
+    </article>
+
+    <article>
+
+        Aula 7
+        <h1>Formulário na Prática</h1>
+
+        <h3>Formulário com GET</h3>
+
+        <form method="get" action="index_html_intermediario.html">
+                <input type="text" name="q">
+                <input type="submit" value="Enviar">
+        </form> <br><br>
+
+        <h3>Formulário com POST</h3>
+        <form method="post">
+            <input type="text" name="q">
+            <input type="submit" value="Enviar">
+        </form><br><br>
+        
+    </article>
+
+    <article>
+        Aula 7, ainda
+        <h3>Formulário de Login no FACEBOOK</h3>
+
+        <form method="get" action="index_html_intermediario.html" enctype="multipart/form-data">
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"><br><br>
+            <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou E-mail"><br><br>
+            <input type="password" name="senha" id="senha" placeholder="Nova Senha"><br><br>
+
+            <label>Data de Nascimento</label><br>
+
+            <select name="dia">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <select name="mes">
+                <option value="Jan">Jan</option>
+                <option value="Fev">Fev</option>
+                <option value="Mar">Mar</option>
+                <option value="Abr">Abr</option>
+                <option value="Mai">Mai</option>
+            </select>
+
+            <select name="ano">
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+            </select><br><br>
+
+            <label>Gênero</label><br>
+
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino">
+
+            <label for="masculo">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+
+            <label for="personalizado">Personalizado</label>
+            <input type="radio" name="genero" id="personalizado" value="personalizado"><br><br>
+
+            <input type="file" name="" id=""><br><br><br>
+
+            <input type="submit" value="Enviar">
+
+        </form> <br><br>
+
+    </article>
+
+    
 </body>
 
 </html>
