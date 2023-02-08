@@ -1,0 +1,9 @@
+article {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+    border: solid 10px rgba(0, 58, 249, 0.518);
+    width: 50%;
+    background-color: rgba(187, 238, 251, 0.433);
+    border-radius: 15px;
+}
