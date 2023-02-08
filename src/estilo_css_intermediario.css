@@ -7,3 +7,33 @@ article {
     background-color: rgba(187, 238, 251, 0.433);
     border-radius: 15px;
 }
+
+nav, header {
+    position: relative;
+    color: black;
+    box-sizing: border-box;
+    border: solid 5px rgba(116, 166, 216, 0.687);
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    background-color: azure;
+    border-radius: 25px;
+}
+
+.container-cascata {
+    background-color: aqua;
+}
+
+/* Especificidade */
+
+h2 {
+    background-color: lightskyblue;
+}
+
+/* .container-especificidade p {
+    background-color: greenyellow;
+} */
+
+#meu-paragrafo {
+    background-color: lightslategray;
+}

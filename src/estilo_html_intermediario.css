@@ -2,8 +2,20 @@ article {
     box-sizing: border-box;
     margin: 10px;
     padding: 20px;
-    border: solid 10px rgba(18, 57, 186, 0.698) 
+    border: solid 10px rgba(0, 247, 255, 0.46);
     width: 50%;
-    background-color: rgba(127, 255, 212, 0.416);
+    background-color: rgba(164, 251, 222, 0.416);
+    border-radius: 25px;
+}
+
+nav, header {
+    position: relative;
+    color: black;
+    box-sizing: border-box;
+    border: solid 5px rgba(116, 166, 216, 0.687);
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    background-color: azure;
     border-radius: 25px;
 }
