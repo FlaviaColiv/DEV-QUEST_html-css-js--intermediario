@@ -8,6 +8,7 @@ article {
     border-radius: 15px;
 }
 
+/* Aula 1 */
 nav, header {
     position: relative;
     color: black;
@@ -37,3 +38,58 @@ h2 {
 #meu-paragrafo {
     background-color: lightslategray;
 }
+
+/*Aula 2*/
+
+.fundo-alinhamento {
+    padding: 20px;
+    background-color: #D1c4e9;
+}
+
+.fundo-transform {
+    padding: 20px;
+    background-color: #c8e6c9;
+}
+
+.fundo-decoration {
+    padding: 20px;
+    background-color: #FFF9c4;
+}
+
+.fundo {
+    padding: 20px;
+    background-color: #ccc;
+}
+
+html {
+    font-size: 16px;
+}
+
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado {
+    text-align: justify;
+}
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capitalizando {
+    text-transform: capitalize;
+}
+

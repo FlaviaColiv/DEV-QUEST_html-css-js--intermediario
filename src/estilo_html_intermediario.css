@@ -15,7 +15,7 @@ nav, header {
     border: solid 5px rgba(116, 166, 216, 0.687);
     padding: 10px;
     margin: 10px;
-    width: 50%;
+    width: 100%;
     background-color: azure;
     border-radius: 25px;
 }
