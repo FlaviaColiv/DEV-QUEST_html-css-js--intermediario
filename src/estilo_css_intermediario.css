@@ -19,6 +19,12 @@ nav, header {
     width: 50%;
     background-color: azure;
     border-radius: 25px;
+    text-align: center;
+}
+
+.links {
+    list-style-type: none;
+    
 }
 
 .container-cascata {
@@ -91,5 +97,63 @@ html {
 
 .capitalizando {
     text-transform: capitalize;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+
+.sem-test-decoration {
+    text-decoration: none;
+}
+
+/*Aula 3  e Aula 4 e Aula 5*/
+@font-face {
+    font-family: 'Back to School';
+    src: url('./Fontes/Back\ To\ School.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+
+
+.aula4h1 {
+    color: black;
+    font-family: 'Back to School', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.aula4p {
+    
+    font-family: 'Baskervville', serif;
+    text-align: justify;
+    
+}
+
+a {
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: goldenrod
+}
+
+a:hover {
+    background-color: #D1c4e9;
+    color: #5900fd;
+}
+
+/*Aula 7 */
+
+ul {
+    list-style-type: none;
 }
 
