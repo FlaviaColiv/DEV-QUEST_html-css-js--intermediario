@@ -235,19 +235,19 @@ ol li {
     
 }
  /* ul já vem como bloco por padrão*/
-.em-bloco .li-aula9 {
+.em-bloco .li-aula9 {  /* display block - ocupa a largura total da tela*/
     background: rgba(0, 255, 255, 0.34);
     margin-bottom: 100px;
     width: 100px;
 }
 
-.em-linha .li-aula9 {
+.em-linha .li-aula9 { /* display inline - um do lado do outro, sem definir altura e largura*/
     display: inline;
     background: rgba(0, 255, 255, 0.34);
     
 }
 
-.em-linha-e-bloco .li-aula9 {
+.em-linha-e-bloco .li-aula9 { /* display inline-block - um do lado do outro, definindo altura e largura*/
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -255,4 +255,55 @@ ol li {
 
 .esconder {
     display: none; /* esconder elemento da tela*/
+}
+
+/*  Aula 10 */
+
+.elemento {
+    color: black;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico {
+    position: static; /* vem como padrão do elemento, não precisa colocar, todos vêm assim */
+    background-color: #fff9c46a;
+}
+
+.elemento-relativo {
+    position: relative; /* posicionado relativamente ao local que foi criado na tela, consegue mover o bloco na tela */
+    left: 50%; /* valor de espaçamento */
+    background-color: #fff9c46a;
+}
+
+.elemento-absoluto {
+    position: absolute; /* proprieda absolute, destacando o elemento da camada padrão, acaba sobrepondo todos os outros, os elementos seguinto ficam abaixo dele */
+    /*  se mudar a posição ele pode, inclusive ir para o topo da tela com top: 0; */
+    background-color: #fff9c46a;
+}
+
+.elemento-estatico {
+    position: static;
+    background-color: #c4d8ff6a;
+}
+
+
+/* A relação de pai e filho, coloca esse item, que está inclusiso em outro, como limitado a se mover no grupo ao qual ele faz parte, para isso acontecer o grupo de dominio tem de estar com o position: relative*/
+.elemento-relativo-com-filho  {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(250, 235, 215, 0.581);
+}
+
+.elemento-relativo-com-pai  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 139, 139, 0.43);
 }
