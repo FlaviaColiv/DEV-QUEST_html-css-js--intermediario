@@ -11,6 +11,11 @@ article {
     width: 50%;
     background-color: rgba(187, 238, 251, 0.433);
     border-radius: 15px;
+    
+}
+
+body {
+    padding-top: 60px;
 }
 
 /* Aula 1 */
@@ -25,6 +30,8 @@ nav, header {
     background-color: azure;
     border-radius: 25px;
     text-align: center;
+    
+
 }
 
 .links {
@@ -259,6 +266,8 @@ ol li {
 
 /*  Aula 10 */
 
+/* O elemento position só funciona (ou funciona melhor) se ele se a propiedade por definida primeiro */
+
 .elemento {
     color: black;
     font-size: 32px;
@@ -283,6 +292,7 @@ ol li {
     position: absolute; /* proprieda absolute, destacando o elemento da camada padrão, acaba sobrepondo todos os outros, os elementos seguinto ficam abaixo dele */
     /*  se mudar a posição ele pode, inclusive ir para o topo da tela com top: 0; */
     background-color: #fff9c46a;
+    left: 200px;
 }
 
 .elemento-estatico {
@@ -291,7 +301,9 @@ ol li {
 }
 
 
-/* A relação de pai e filho, coloca esse item, que está inclusiso em outro, como limitado a se mover no grupo ao qual ele faz parte, para isso acontecer o grupo de dominio tem de estar com o position: relative*/
+/* A relação de pai e filho, coloca esse item, que está inclusiso em outro, como limitado a se mover no grupo ao qual ele faz parte, para isso acontecer o grupo de dominio tem de estar com o position: relative.
+
+Esse movimento em relação ao ancestral é somente em position:absolute. Se esse elemente não estiver ligado à um ancestral, ele se locomoverá na página, como um todo*/
 .elemento-relativo-com-filho  {
     position: relative;
     width: 350px;
@@ -306,4 +318,28 @@ ol li {
     width: 150px;
     height: 150px;
     background-color: rgba(0, 139, 139, 0.43);
+}
+
+/* Aula 11 */
+
+.body-aula11 {
+    height: 1500px;
+    position: relative;
+}
+
+.header-aula11 {
+    font-size: 24px;
+    /* position: fixed;  esse item coloca o elemento fixado em determinada posição, aparecendo sempre, mesmo que a página seja rolada. Para se tornar visível tem de se definir o 'bottom' */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px; 
+}
+
+.elementro-grudento {
+    position: sticky; /* Fixa grudado na posição e segue ao longo da barra de rolagem, mas está limitado ao seu ancestral */
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+    /* bottom: 0; */ /* sem a tag bottom só funciona para baixo, com ela, funciona tanto para cima do local de rolagem, quanto para baixo */
 }
