@@ -1,0 +1,86 @@
+
+body {
+    background-color: rgba(128, 128, 128, 0.274);
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: rgba(59, 240, 240, 0.16);
+    border: solid 5px rgba(178, 0, 249, 0.171);
+    border-radius: 10px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+main {
+    background-color: rgba(189, 254, 254, 0.275);
+    padding: 30px;
+    /* Min e max-windth - largura máxima e minima será dos valores definidos, ajuda na responsividade*/
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto; /* 0, de espaçamento em cima e em baixo. Auto - automaticamente centraliza */
+    border: solid 10px rgba(178, 0, 249, 0.171);
+    border-radius: 15px;
+    /* box-sizing: border-box; */
+}
+
+main .info {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px ;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    color: goldenrod
+}
+
+a:visited {
+    color: goldenrod
+}
+
+a:hover {
+    background-color: #D1c4e9;
+    color: #5900fd;
+    border-radius: 7px;
+}
+
+.image img {
+    width: 100%;
+}
+
+/* Media quare - nesse escopo que coloca os seletores. 
+Dispostivos extra pequenos (celulares em posição porta retrato, menores do que 576px.
+Outros break points em: 768px, dispositivo pequeno (celulares), posição paisagem; 992px, dispositivo médio (tablets); 1200px, dispositivo grande (desktops); dispositivos extra grande, não tem breakpoint, possibilidade 2500px */
+@media (max-width: 576px) {
+.cabecalho {
+    text-align: center;
+}
+
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
+
+}
+
+

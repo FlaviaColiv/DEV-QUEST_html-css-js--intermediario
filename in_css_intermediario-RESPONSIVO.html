@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <title>CSS Intermediario</title>
+
+            <link rel="stylesheet" href="./src/estilo_css_intermediario-RESPONSIVO.css">
+
+            <link rel="stylesheet" href="./src/reset.css">
+    </head>
+    <body>
+
+        <header class="cabecalho">
+            <h1 class="logo">Logo</h1>
+
+            <nav>
+                <ul>
+                    <li class="links"><a href="./index.html">Página do HTML</a></li>
+                    <li class="links"><a href="./in_css_intermediario.html">Segunda Página de CSS - INICIO</a></li>
+                <!-- <li ><a href="./in_css_intermediario.html">Página do CSS</a></li> -->
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <section class="painel">
+
+                <div class="info">
+                    <h1>Borboletas</h1>
+                </div>
+
+                <div class="image">
+                    <picture> <!-- Picture você seleciona diferente imagens a depender do tamanho da tela do aparallho -->
+                        <source srcset="./images/boroboleta-pequena.jpg" media="(max-width: 600px)">
+
+                        <img src="./images/boroboleta-grande1.jpg" alt="Borboletas">
+
+                    </picture>
+                </div>
+
+                <div class="info">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, illo non sit perspiciatis quis accusantium, dignissimos nostrum adipisci esse fugiat unde ad eius ducimus omnis iusto. Error accusamus iusto odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsum qui sint quo ducimus animi, optio sequi velit modi error blanditiis quia reprehenderit inventore perferendis assumenda saepe quasi? Ab, dolore.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ducimus distinctio consectetur at, ex numquam. Perferendis modi culpa ipsum dolores, natus fugit repellendus, accusamus suscipit debitis animi fugiat. Illum, ex? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat fugit, ipsa accusantium laborum autem natus nihil quidem, veritatis rem, at iusto unde cumque sunt animi tempora deleniti debitis reiciendis excepturi.
+                    </p>
+                </div>
+
+            </section>
+        </main>
+    </body>
+</html>
