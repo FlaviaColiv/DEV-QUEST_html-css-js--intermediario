@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 article {
     box-sizing: border-box;
     margin: 10px;
@@ -35,6 +40,8 @@ nav, header {
 
 h2 {
     background-color: lightskyblue;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* .container-especificidade p {
@@ -154,6 +161,98 @@ a:hover {
 /*Aula 7 */
 
 ul {
-    list-style-type: none;
+   background-color: #fff9c43e;
+    /* list-style-image: url(../images/macaw2.png); */
+    list-style: inside url(../images/macaw2.png);
 }
 
+h1,h4 {
+    margin: 10px;
+    padding: 10px;
+}
+
+ul li {
+    border: 1px solid #5900fd3d;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+ol {
+
+    background-color: rgba(243, 188, 49, 0.508);
+    list-style: square inside url(../images/macaw2.png);
+}
+ol li {
+    border: 1px solid #5900fd4e;
+    padding: 10px;
+}
+
+/* Aula 8 */
+
+.pbg /* p */ {
+    color: rgb(165, 80, 255);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: rgba(0, 189, 252, 0.489);
+    background-image: url(../images/barco-nascer-do-sol-japones.jpg);
+    
+}
+
+.bg-image {
+    width: 513px;
+    height: 341px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.bg-size-cover {
+    background-size: cover; /*Normalmente se quer essa característica*/
+    height: 400px; /* cuidar para que a altura seja o tamanho da imagem*/
+}
+
+.bg-fixed {
+    background-attachment: fixed; /* a imagem parece congelada no fundo */
+    height: 400px;
+}
+
+.bg-position {
+    /* background-position: bottom left; alinahemento vertical e depois horizontal */
+    /* background-repeat: no-repeat; */
+    height: 400px; 
+    background: #5900fd3d url(../images/barco-nascer-do-sol-japones.jpg) no-repeat right top;
+}
+
+/* Aula 9 */
+
+.ul-aula9 {
+    margin-bottom: 50px;
+    
+}
+ /* ul já vem como bloco por padrão*/
+.em-bloco .li-aula9 {
+    background: rgba(0, 255, 255, 0.34);
+    margin-bottom: 100px;
+    width: 100px;
+}
+
+.em-linha .li-aula9 {
+    display: inline;
+    background: rgba(0, 255, 255, 0.34);
+    
+}
+
+.em-linha-e-bloco .li-aula9 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.esconder {
+    display: none; /* esconder elemento da tela*/
+}
