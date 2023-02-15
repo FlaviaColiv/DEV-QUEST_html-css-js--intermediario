@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(128, 128, 128, 0.274);
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: rgba(59, 240, 240, 0.16);
+    border: solid 5px rgba(178, 0, 249, 0.171);
+    border-radius: 10px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.float .right {
+    float: right;
+    background-color: rgba(172, 255, 47, 0.449);
+    width: 100px;
+    height: 100px;
+}
+
+.float .left {
+    float: left;
+    background-color: rgba(172, 255, 47, 0.554);
+    width: 100px;
+    height: 100px;
+}
+
+/* Esse elemento faz se adequar ao tamanho dos elementos filho */
+.float::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
