@@ -61,7 +61,7 @@ font-size: 1em;
 }
 
 
-/*Forma mais siples de centralizar texto*/
+/*Forma mais simples de centralizar texto*/
 .texto-centralizado-1 {
     width: 250px;
     height: 250px;
@@ -69,7 +69,7 @@ font-size: 1em;
 
     text-align: center;
 
-    /*Para centralizar tanto verticalemente, qaunto horizontalmente. O item line-height do mesmo tamanho da altura (height) da classe */
+    /*Para centralizar tanto verticalemente, quanto horizontalmente. O item line-height do mesmo tamanho da altura (height) da classe */
     line-height: 250px;
 
 }
@@ -80,12 +80,31 @@ font-size: 1em;
     position: absolute;
     top: 50%;
     /* transform: translateY(-50%); */
-     /* translate = mover; y = eixo vertical; valores negativos (vertical) sobem o item; (horizonta) para a esquerda */
+    /* translate = mover; y = eixo vertical; valores negativos (vertical) sobem o item; (horizonta) para a esquerda */
 
     left: 50%;
     /* transform: translateX(-50%) */
     transform: translate(-50%, -50%); /* primeiro valor é o vertical e o segundo horizontal */
 }
 
+.alinhado-margin-auto {
+    margin: auto; /*margem automática. Botão vem automático com display inline (margeado à esquerda), então altera para display block*/
+    display: block;
 
-/* CENTRALIZANDO ELEMENTO Pausado em 08:33 minutos */
+}
+
+.alinhamento-absoluto {
+    position: absolute; /* Com esse comando consegue tirar a estática dos comandos, permitindo que posicione de acordo necessidade (com margin e height*/
+    margin: auto; /*zerando os valores de todas as laterais, o margin auto passa a funcionar  e força a centralizaçao*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+/* a div é o pai, consegue ajustar as caracteristicas da  imagem, se os ajustes estiverem diretamente no img, não conseguiria ajustar a posição da imagem, só consegue fazendo as alterações na TAG pai.*/
+.container-text-align {
+    text-align: center; /* ajuda centraliza, inclusive imagem*/
+
+}

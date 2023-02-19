@@ -1,3 +1,5 @@
+/* GERAL */
+
 article {
     box-sizing: border-box;
     margin: 10px;
@@ -13,9 +15,56 @@ nav, header {
     color: black;
     box-sizing: border-box;
     border: solid 5px rgba(116, 166, 216, 0.687);
-    padding: 10px;
     margin: 10px;
     width: 100%;
     background-color: azure;
     border-radius: 25px;
 }
+
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: goldenrod
+}
+
+a:hover {
+    background-color: #D1c4e9;
+    color: #5900fd;
+}
+
+/* GERAL (FIM)*/
+
+/* FONT-AWESOME */
+
+.fa-facebook-square {
+    color: rgba(0, 0, 255, 0.33);
+    font-size: 30px;
+}
+
+.fa-instagram {
+    color: rgba(0, 0, 255, 0.33);
+    font-size: 30px;
+}
+
+/* :hover - define as características quando passa o mouse em cima*/
+.fa-facebook-square:hover {
+    color: rgba(65, 153, 225, 0.62);
+}
+
+.fa-instagram:hover {
+    color: rgba(165, 42, 42, 0.731);
+}
+
+/* FONT-AWESOME (FIM) */
