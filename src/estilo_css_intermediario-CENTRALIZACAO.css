@@ -19,7 +19,9 @@ a:hover {
 
 body {
     background-color: rgba(128, 128, 128, 0.274);
-
+    font-weight: bold;
+    color: rgba(159, 16, 236, 0.734);
+    font-size: 1.2em;
 }
 
 .cabecalho {
@@ -44,3 +46,46 @@ body {
 
 /* ---- ESTILOS GERAIS (FIM) ---- */
 
+.container {
+    background-color: rgba(127, 255, 212, 0.316);
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn {width: 250px;
+height: 50px;
+background-color: rgba(13, 225, 225, 0.593);
+color: #5d19db;
+font-size: 1em;
+}
+
+
+/*Forma mais siples de centralizar texto*/
+.texto-centralizado-1 {
+    width: 250px;
+    height: 250px;
+    background-color: beige;
+
+    text-align: center;
+
+    /*Para centralizar tanto verticalemente, qaunto horizontalmente. O item line-height do mesmo tamanho da altura (height) da classe */
+    line-height: 250px;
+
+}
+
+/* Forma mais responsiva de centralizar texto (position absolute), */
+
+.texto-centralizado-2 {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+     /* translate = mover; y = eixo vertical; valores negativos (vertical) sobem o item; (horizonta) para a esquerda */
+
+    left: 50%;
+    /* transform: translateX(-50%) */
+    transform: translate(-50%, -50%); /* primeiro valor é o vertical e o segundo horizontal */
+}
+
+
+/* CENTRALIZANDO ELEMENTO Pausado em 08:33 minutos */
