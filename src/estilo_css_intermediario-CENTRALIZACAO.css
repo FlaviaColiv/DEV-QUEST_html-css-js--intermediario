@@ -1,0 +1,46 @@
+a {
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: goldenrod
+}
+
+a:hover {
+    background-color: #D1c4e9;
+    color: #5900fd;
+}
+
+/* ---- ESTILOS GERAIS ---- */
+
+body {
+    background-color: rgba(128, 128, 128, 0.274);
+
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: rgba(59, 240, 240, 0.16);
+    border: solid 5px rgba(178, 0, 249, 0.171);
+    border-radius: 10px;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* ---- ESTILOS GERAIS (FIM) ---- */
+
