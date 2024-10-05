@@ -53,14 +53,32 @@ calcularAnoDeNascimento(35, 7, imprimirAnoDeNascimento)
 // console.log(triplicar(3))
 // console.log(quadruplicar(3))
 
-let filmes = [
-    ['Vingadores', 4.5, true], 
-    ['Mulher Maravilha', 4.6, false, ['Gal Gabot', 25]]
-]
-// let avaliações = [1, 4.6, 5]
+// let filmes = [
+//     ['Vingadores', 4.5, true], 
+//     ['Mulher Maravilha', 4.6, false, ['Gal Gabot', 25]]
+// ]
+// // let avaliações = [1, 4.6, 5]
 
-console.table(filmes)
+// console.table(filmes)
 
-console.table(filmes[1][3][0]);
+// console.table(filmes[1][3][0]);
 
+let frutas = ['banana', 'maçã', 'laranja', 'pêra']
+let frutasTamanho = frutas.length
 
+for(let i = 0; i < frutasTamanho; i++){
+    console.log('Fruta: ' + frutas[i])
+}
+
+frutas.forEach(function(item){
+    console.log('Fruta: ' + item)
+})
+
+frutas.push('manga')
+console.log(frutas)
+
+frutas.unshift('morango')
+console.log(frutas)
+
+let posicaoLaranja = frutas.indexOf('laranja')
+console.log(posicaoLaranja)
