@@ -39,16 +39,28 @@ let imprimirAnoDeNascimento = anoDeNascimento => {
 
 calcularAnoDeNascimento(35, 7, imprimirAnoDeNascimento)
 
-function multiplicar(multiplicador){
-    return function(numero){
-        return numero * multiplicador
-    }
-}
+// function multiplicar(multiplicador){
+//     return function(numero){
+//         return numero * multiplicador
+//     }
+// }
 
-let dobrar = multiplicar(2)
-let triplicar = multiplicar(3)
-let quadruplicar = multiplicar(4)
+// let dobrar = multiplicar(2)
+// let triplicar = multiplicar(3)
+// let quadruplicar = multiplicar(4)
 
-console.log(dobrar(3))
-console.log(triplicar(3))
-console.log(quadruplicar(3))
+// console.log(dobrar(3))
+// console.log(triplicar(3))
+// console.log(quadruplicar(3))
+
+let filmes = [
+    ['Vingadores', 4.5, true], 
+    ['Mulher Maravilha', 4.6, false, ['Gal Gabot', 25]]
+]
+// let avaliações = [1, 4.6, 5]
+
+console.table(filmes)
+
+console.table(filmes[1][3][0]);
+
+
