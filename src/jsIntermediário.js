@@ -58,27 +58,40 @@ calcularAnoDeNascimento(35, 7, imprimirAnoDeNascimento)
 //     ['Mulher Maravilha', 4.6, false, ['Gal Gabot', 25]]
 // ]
 // // let avaliações = [1, 4.6, 5]
-
+//04/10/2024
 // console.table(filmes)
 
 // console.table(filmes[1][3][0]);
 
 let frutas = ['banana', 'maçã', 'laranja', 'pêra']
-let frutasTamanho = frutas.length
+// let frutasTamanho = frutas.length
 
-for(let i = 0; i < frutasTamanho; i++){
-    console.log('Fruta: ' + frutas[i])
-}
+// for(let i = 0; i < frutasTamanho; i++){
+//     console.log('Fruta: ' + frutas[i])
+// }
 
-frutas.forEach(function(item){
-    console.log('Fruta: ' + item)
-})
+// frutas.forEach(function(item){
+//     console.log('Fruta: ' + item)
+// })
 
-frutas.push('manga')
-console.log(frutas)
+// frutas.push('manga')
+// console.log(frutas)
 
-frutas.unshift('morango')
-console.log(frutas)
+// frutas.unshift('morango')
+// console.log(frutas)
 
-let posicaoLaranja = frutas.indexOf('laranja')
-console.log(posicaoLaranja)
+// let posicaoLaranja = frutas.indexOf('laranja')
+// console.log(posicaoLaranja)
+
+//09/10/2024
+// console.log(frutas)
+// let frutasExtraídas = frutas.slice(1,3)
+// console.log(frutasExtraídas)
+
+// let frutasExtraídas2 = frutas.splice(1, 2)
+// console.log(frutasExtraídas2)
+// console.log(frutas)
+
+// let removeEAdcionaFrutas = frutas.splice(1, 2, "goiaba", "abacaxi", "uva")
+
+// console.log(frutas)
