@@ -98,16 +98,28 @@ let frutas = ['banana', 'maçã', 'laranja', 'pêra']
 
 ////Objetos
 
-let tenis = { 
-    // chave: valor
-    cor: 'branco',
-    temanho: 36,
-    emEstoque: true
+// let tenis = { 
+//     // chave: valor
+//     cor: 'branco',
+//     temanho: 36,
+//     emEstoque: true
+// }
+
+// console.log(tenis.cor)
+// console.log(tenis)
+
+// tenis.valor = 200
+
+// console.log(tenis)
+
+////MÉTODOS: Adicionando funções a objetos
+
+let usuario = {
+    nome: 'Flavia',
+    idade: '35',
+    excluir: function() {
+        console.log('A usuária ' + this.nome + ' foi excluído!')
+    }
 }
 
-console.log(tenis.cor)
-console.log(tenis)
-
-tenis.valor = 200
-
-console.log(tenis)
+usuario.excluir()
