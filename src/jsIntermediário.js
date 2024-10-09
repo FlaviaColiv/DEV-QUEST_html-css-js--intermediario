@@ -118,8 +118,11 @@ let usuario = {
     nome: 'Flavia',
     idade: '35',
     excluir: function() {
-        console.log('A usuária ' + this.nome + ' foi excluído!')
+        console.log('A usuária ' + this.nome + ' é incrível!!! E nasceu em 6 de julho de 1989.')
     }
 }
 
 usuario.excluir()
+
+////this
+
