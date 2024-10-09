@@ -95,3 +95,19 @@ let frutas = ['banana', 'maçã', 'laranja', 'pêra']
 // let removeEAdcionaFrutas = frutas.splice(1, 2, "goiaba", "abacaxi", "uva")
 
 // console.log(frutas)
+
+////Objetos
+
+let tenis = { 
+    // chave: valor
+    cor: 'branco',
+    temanho: 36,
+    emEstoque: true
+}
+
+console.log(tenis.cor)
+console.log(tenis)
+
+tenis.valor = 200
+
+console.log(tenis)
