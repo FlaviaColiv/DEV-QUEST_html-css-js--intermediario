@@ -125,4 +125,44 @@ let usuario = {
 usuario.excluir()
 
 ////this
+'use strict' //evita escopo vazando ou síntese indevida (coloca isso no inicio do documento)
+// console.log(this)
+// console.log(window === this)
 
+// this.name = 'Flavia'
+
+// function saudar() {
+//     console.log('this no contexto da função', this)
+//     console.log('Olá, ' + this.name)
+// }
+
+// saudar()
+
+// let usuario2 = {
+//     nome: 'Flavia',
+//     saudar: function() {
+//         console.log('this no contexto do metodo', this)
+
+//         console.log('this no contexto do metodo', this.nome)
+//     }
+// }
+
+// usuario2.saudar()
+
+let comida = {
+    nome: 'Brócolis',
+    temperatura: 0
+}
+
+// comida.cozinhar = function(comidaParaCozinhar, temperaturaDeCozimento) {
+//     comidaParaCozinhar.temperatura = temperaturaDeCozimento;
+// } OU
+
+comida.cozinhar = function(temperaturaDeCozimento) {
+    this.temperatura = temperaturaDeCozimento;
+}
+
+console.log(comida)
+
+comida.cozinhar(100)
+console.log(comida)
