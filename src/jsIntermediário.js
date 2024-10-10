@@ -158,11 +158,11 @@ let comida = {
 //     comidaParaCozinhar.temperatura = temperaturaDeCozimento;
 // } OU
 
-comida.cozinhar = function(temperaturaDeCozimento) {
-    this.temperatura = temperaturaDeCozimento;
-}
+// comida.cozinhar = function(temperaturaDeCozimento) {
+//     this.temperatura = temperaturaDeCozimento;
+// }
 
-console.log(comida)
+// console.log(comida)
 
-comida.cozinhar(100)
-console.log(comida)
+// comida.cozinhar(100)
+// console.log(comida)
