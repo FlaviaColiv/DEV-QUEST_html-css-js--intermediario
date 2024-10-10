@@ -166,3 +166,20 @@ let comida = {
 
 // comida.cozinhar(100)
 // console.log(comida)
+
+let frutas2 = ['uva', 'banana', 'melão']
+
+let videoGame = {
+    nome: 'Xbox',
+    valor: 3000
+}
+let videoGame2 = {
+    nome: 'Playstation',
+    valor: 5000
+}
+
+let videoGames = [videoGame, videoGame2]
+
+console.log(videoGames)
+console.log(videoGames[1]) //representação de um objeto
+console.log(videoGames[1].nome) //chama só o nome de um objeto
