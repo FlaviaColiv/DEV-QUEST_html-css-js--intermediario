@@ -167,19 +167,54 @@ let comida = {
 // comida.cozinhar(100)
 // console.log(comida)
 
-let frutas2 = ['uva', 'banana', 'melão']
+// let frutas2 = ['uva', 'banana', 'melão']
 
-let videoGame = {
-    nome: 'Xbox',
-    valor: 3000
+// let videoGame = {
+//     nome: 'Xbox',
+//     valor: 3000
+// }
+// let videoGame2 = {
+//     nome: 'Playstation',
+//     valor: 5000
+// }
+
+// let videoGames = [videoGame, videoGame2]
+
+// console.log(videoGames)
+// console.log(videoGames[1]) //representação de um objeto
+// console.log(videoGames[1].nome) //chama só o nome de um objeto
+
+// let jogo1 = {
+//     nome: 'Final fantasy'
+// }
+// let jogo2 = {
+//     nome: 'Falout'
+// };
+
+// let videoGame = {
+//     nome: 'Xbox',
+//     valor: 3000,
+//     // jogos: ['Final fantasy', 'Falout', 'Fifa'] OU
+//     jogos: [jogo1, jogo2]
+// };
+
+// let jogo3 = {
+//     nome: 'Fifa'
+// };
+
+// videoGame.jogos.push(jogo3) //adiciona mais um item à lista de jogos
+
+// console.log(videoGame)
+
+let cliente = {
+    nome: 'Flavia',
+    ultimoPedido: {
+        produto: 'Xbox',
+        valor: 3000,
+        jogos: [
+            { nome: 'Fifa' }
+        ]
+    }
 }
-let videoGame2 = {
-    nome: 'Playstation',
-    valor: 5000
-}
 
-let videoGames = [videoGame, videoGame2]
-
-console.log(videoGames)
-console.log(videoGames[1]) //representação de um objeto
-console.log(videoGames[1].nome) //chama só o nome de um objeto
+console.log(cliente.ultimoPedido.jogos[0].nome) 
