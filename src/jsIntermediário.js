@@ -219,14 +219,15 @@ let comida = {
 
 // console.log(cliente.ultimoPedido.jogos[0].nome) 
 
-let p = document.getElementById('paragrafo1')
-console.log(p)
+// let p = document.getElementById('paragrafo1')
+// console.log(p)
 
-let inputPorClasse = document.getElementsByClassName('tag-de-input')
-console.log(inputPorClasse[1])
+// let inputPorClasse = document.getElementsByClassName('tag-de-input')
+// console.log(inputPorClasse[1])
 
-let inputPorTag = document.getElementsByTagName('h1')
-console.log(inputPorTag)
+// let inputPorTag = document.getElementsByTagName('h1')
+// console.log(inputPorTag)
 
-let inputPorName = document.querySelectorAll("input[name='email']"); // por nome - busca todos os elementos a partir de uma QUERY (consulta) - consulta mais complexa
-console.log(inputPorName)
+// let inputPorName = document.querySelectorAll("input[name='email']"); // por nome - busca todos os elementos a partir de uma QUERY (consulta) - consulta mais complexa
+// console.log(inputPorName)
+
