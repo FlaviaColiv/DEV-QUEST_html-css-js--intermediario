@@ -231,15 +231,29 @@ let comida = {
 // let inputPorName = document.querySelectorAll("input[name='email']"); // por nome - busca todos os elementos a partir de uma QUERY (consulta) - consulta mais complexa
 // console.log(inputPorName)
 
-function adicionarComentario() {
-    // seleciona o item
-    let inputComentario = document.getElementsByName('novo-comentario');
-    // ter acesso ao valor preenchido
-    let textoDigitado = inputComentario[0].value;
-    // pegar o valor e adicionar como um html novo, adicionar na tela
-    let novosComentarios = document.getElementById('novos-comentarios');
-    //inserir alguma porção de html dentro de outro elemento
-    // novosComentarios.innerHTML = `<p>Novo Comentário: ${textoDigitado} </p>`;
-    // para adicionar mais de um comentário += - concatena textos no html
-    novosComentarios.innerHTML += `<p>Novo Comentário: ${textoDigitado} </p>`;
+// function adicionarComentario() {
+//     // seleciona o item
+//     let inputComentario = document.getElementsByName('novo-comentario');
+//     // ter acesso ao valor preenchido
+//     let textoDigitado = inputComentario[0].value;
+//     // pegar o valor e adicionar como um html novo, adicionar na tela
+//     let novosComentarios = document.getElementById('novos-comentarios');
+//     //inserir alguma porção de html dentro de outro elemento
+//     // novosComentarios.innerHTML = `<p>Novo Comentário: ${textoDigitado} </p>`;
+//     // para adicionar mais de um comentário += - concatena textos no html
+//     novosComentarios.innerHTML += `<p>Novo Comentário: ${textoDigitado} </p>`;
+// }
+
+function alterarCorDeFundoPrimeiroPost() {
+    let posts = document.getElementsByClassName('post');
+
+    let primeiroPost = posts[0];
+    primeiroPost.style.backgroundColor = 'violet';
+}
+
+// adcionar uma classe 
+function aumentarFonteSegundoPost() {
+    let textoPosts = document.getElementsByClassName('texto-post');
+
+    textoPosts[1].classList.add('fonte-grande')
 }

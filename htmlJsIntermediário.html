@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>JS Intermediário</title>
+
+    <style>
+        .fonte-grande {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <h1>Bem vindo!</h1>
@@ -14,13 +22,16 @@
 
     <input type="text" name="email" class="tag-de-input" placeholder="Digite seu email secundário"> -->
 
+    <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar Cor de Fundo do Primeiro Post</button>
+    
+    <br><br>
+    
+    <button onclick="aumentarFonteSegundoPost()">Aumentar a Fonte</button>
+
     <article class="post">
         <p><strong>Flávia Oliveira</strong> <span>@flaviacoliv - 10 min</span></p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, blanditiis, repellat, iusto suscipit error aperiam corrupti inventore voluptatibus maxime in quisquam eum? Fuga non eveniet aliquid beatae numquam eligendi delectus.</p>
-
-        <br>
-
-        <div class="comentarios">
+        <p class="texto-post">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, blanditiis, repellat, iusto suscipit error aperiam corrupti inventore voluptatibus maxime in quisquam eum? Fuga non eveniet aliquid beatae numquam eligendi delectus.</p>
+        <!-- <div class="comentarios">
             <h3>Comentários: </h3>
             <input name="novo-comentario" type="text" placeholder="Digite o seu comentário">
 
@@ -29,9 +40,13 @@
             <br>
 
             <div id="novos-comentarios"></div>
-        </div>
+        </div> -->
     </article>
-    
+    <article class="post">
+        <p><strong>Flávia Oliveira</strong> <span>@flaviacoliv - 20 min</span></p>
+        <p class="texto-post">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, blanditiis, repellat, iusto suscipit error aperiam corrupti inventore voluptatibus maxime in quisquam eum? Fuga non eveniet aliquid beatae numquam eligendi delectus.</p>
+    </article>
+
 </body>
     <script src="./src/jsIntermediário.js"></script>
 </html>
