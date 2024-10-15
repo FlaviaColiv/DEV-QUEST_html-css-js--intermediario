@@ -1,5 +1,5 @@
-const mensagem = 'Olá'
-console.log(mensagem)
+// const mensagem = 'Olá'
+// console.log(mensagem)
 
 // console.log(pais2)
 
@@ -17,27 +17,27 @@ console.log(mensagem)
 
 // console.log(resultadoDaSoma)
 
-let resultadoDaSoma = (numero1, numero2) => numero1 + numero2
+// let resultadoDaSoma = (numero1, numero2) => numero1 + numero2
 
-console.log(resultadoDaSoma(12, 5))
+// console.log(resultadoDaSoma(12, 5))
 
 const incentivarQuester = nomeQuester => {
     console.log('Parabéns ' + nomeQuester + ', Você chegou ao módulo de JS Intermediário!')}
 
     incentivarQuester('Flávia')
 
-const calcularAnoDeNascimento = function (idade, mesDeNascimento, imprimir){
-    const mesAtual = 10
-    let anoDeNascimento = 2024 - idade
-    if(mesDeNascimento > mesAtual) anoDeNascimento--
-    imprimir(anoDeNascimento)
-}
+// const calcularAnoDeNascimento = function (idade, mesDeNascimento, imprimir){
+//     const mesAtual = 10
+//     let anoDeNascimento = 2024 - idade
+//     if(mesDeNascimento > mesAtual) anoDeNascimento--
+//     imprimir(anoDeNascimento)
+// }
 
-let imprimirAnoDeNascimento = anoDeNascimento => {
-    console.log('Seu ano de nascimento é: ' + anoDeNascimento)
-}
+// let imprimirAnoDeNascimento = anoDeNascimento => {
+//     console.log('Seu ano de nascimento é: ' + anoDeNascimento)
+// }
 
-calcularAnoDeNascimento(35, 7, imprimirAnoDeNascimento)
+// calcularAnoDeNascimento(35, 7, imprimirAnoDeNascimento)
 
 // function multiplicar(multiplicador){
 //     return function(numero){
@@ -206,15 +206,27 @@ let comida = {
 
 // console.log(videoGame)
 
-let cliente = {
-    nome: 'Flavia',
-    ultimoPedido: {
-        produto: 'Xbox',
-        valor: 3000,
-        jogos: [
-            { nome: 'Fifa' }
-        ]
-    }
-}
+// let cliente = {
+//     nome: 'Flavia',
+//     ultimoPedido: {
+//         produto: 'Xbox',
+//         valor: 3000,
+//         jogos: [
+//             { nome: 'Fifa' }
+//         ]
+//     }
+// }
 
-console.log(cliente.ultimoPedido.jogos[0].nome) 
+// console.log(cliente.ultimoPedido.jogos[0].nome) 
+
+let p = document.getElementById('paragrafo1')
+console.log(p)
+
+let inputPorClasse = document.getElementsByClassName('tag-de-input')
+console.log(inputPorClasse[1])
+
+let inputPorTag = document.getElementsByTagName('h1')
+console.log(inputPorTag)
+
+let inputPorName = document.querySelectorAll("input[name='email']"); // por nome - busca todos os elementos a partir de uma QUERY (consulta) - consulta mais complexa
+console.log(inputPorName)
