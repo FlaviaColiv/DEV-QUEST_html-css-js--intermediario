@@ -251,7 +251,7 @@ function alterarCorDeFundoPrimeiroPost() {
     primeiroPost.style.backgroundColor = 'violet';
 }
 
-// adcionar uma classe 
+// adcionar uma classe em um elemento que se quer estilizar
 function aumentarFonteSegundoPost() {
     let textoPosts = document.getElementsByClassName('texto-post');
 
