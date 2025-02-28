@@ -248,7 +248,7 @@ function alterarCorDeFundoPrimeiroPost() {
     let posts = document.getElementsByClassName('post');
 
     let primeiroPost = posts[0];
-    primeiroPost.style.backgroundColor = 'violet';
+    primeiroPost.style.backgroundColor = '#F5EEDC';
 }
 
 // adcionar uma classe em um elemento que se quer estilizar
@@ -258,6 +258,8 @@ function aumentarFonteSegundoPost() {
     textoPosts[1].classList.add('fonte-grande')
 }
 
+
+// Começar pelo elemento que se quer alterar
 function marcarRadio(genero) {
     let radioMasculino = document.getElementById('genero-masculino');
     let radioFeminino = document.getElementById('genero-feminino');
