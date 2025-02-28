@@ -1,3 +1,30 @@
+
+// 28/02/2025
+
+// // Deixar tudo de marcação no HTML e de ação no JS
+
+// // pegar o select
+
+// let selectDeEstado = document.querySelector("select[name='estado']");
+
+// // função para seleção - escuta um evento
+
+// selectDeEstado.addEventListener('change', function () {
+//     alert('mudou o select')
+// })
+
+// console.log(selectDeEstado)
+
+// // versão encadeada da função acima
+
+document
+    .querySelector("select[name='estado']")
+    .addEventListener('change', function (event) {
+        console.log(event.target.value)
+    })
+
+// 2024
+
 // const mensagem = 'Olá'
 // console.log(mensagem)
 
@@ -22,9 +49,10 @@
 // console.log(resultadoDaSoma(12, 5))
 
 const incentivarQuester = nomeQuester => {
-    console.log('Parabéns ' + nomeQuester + ', Você chegou ao módulo de JS Intermediário!')}
+    console.log('Parabéns ' + nomeQuester + ', Você chegou ao módulo de JS Intermediário!')
+}
 
-    incentivarQuester('Flávia')
+incentivarQuester('Flávia')
 
 // const calcularAnoDeNascimento = function (idade, mesDeNascimento, imprimir){
 //     const mesAtual = 10
@@ -117,7 +145,7 @@ let frutas = ['banana', 'maçã', 'laranja', 'pêra']
 let usuario = {
     nome: 'Flavia',
     idade: '35',
-    excluir: function() {
+    excluir: function () {
         console.log('A usuária ' + this.nome + ' é incrível!!! E nasceu em 6 de julho de 1989.')
     }
 }
@@ -264,9 +292,9 @@ function marcarRadio(genero) {
     let radioMasculino = document.getElementById('genero-masculino');
     let radioFeminino = document.getElementById('genero-feminino');
 
-    if(genero === 'M') {
+    if (genero === 'M') {
         radioMasculino.checked = true;
-    } else if(genero === 'F') {
+    } else if (genero === 'F') {
         radioFeminino.checked = true;
     }
 }
