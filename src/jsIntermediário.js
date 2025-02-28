@@ -1,6 +1,17 @@
 
 // 28/02/2025
 
+// let valorBoleto = 100;
+
+// console.log(valorBoleto)
+
+let inputTelefone = document.getElementById('telefone');
+
+function habilitarTelefone() {
+    let inputTelefone = document.getElementById('telefone');
+    inputTelefone.disecled = false;
+}
+
 // // Deixar tudo de marcação no HTML e de ação no JS
 
 // // pegar o select
@@ -22,6 +33,9 @@ document
     .addEventListener('change', function (event) {
         console.log(event.target.value)
     })
+
+
+// *************************************************** //
 
 // 2024
 
@@ -49,7 +63,7 @@ document
 // console.log(resultadoDaSoma(12, 5))
 
 const incentivarQuester = nomeQuester => {
-    console.log('Parabéns ' + nomeQuester + ', Você chegou ao módulo de JS Intermediário!')
+    console.log('Parabéns ' + nomeQuester + ', você chegou ao módulo de JS Intermediário!')
 }
 
 incentivarQuester('Flávia')
@@ -153,7 +167,7 @@ let usuario = {
 usuario.excluir()
 
 ////this
-'use strict' //evita escopo vazando ou síntese indevida (coloca isso no inicio do documento)
+// 'use strict' //evita escopo vazando ou síntese indevida (coloca isso no inicio do documento)
 // console.log(this)
 // console.log(window === this)
 
