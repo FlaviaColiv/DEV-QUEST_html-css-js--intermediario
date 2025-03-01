@@ -1,3 +1,9 @@
+/*  EXERCICIO 4 - 01/03/2025 */
+
+.campo-preenchido{
+	border: 1px solid green;
+}
+
 /* EXERCICIO 3 - 01/03/2025 */
 .quadrado{
 	height: 100px;
