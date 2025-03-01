@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.imagens-slider .slide{
+ .imagens-slider .slide{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,24 +68,24 @@
   width: 620px;
   border-radius: 10px;
 }
-
+/*
 .conteudo .titulo{
   margin-bottom: 80px;
   font-size: 5rem;
   font-weight: 400;
 }
-
+/*
 .conteudo .texto{
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 50px;
 }
-
+/*
 .conteudo .botao{
   font-size: 3rem;
   font-weight: 700;
 }
-
+/*
 .botao.rosa{
   color: #C50000;
 }
@@ -97,4 +97,4 @@
 }
 .botao.azul{
   color: #10ACDD;
-}
+} */

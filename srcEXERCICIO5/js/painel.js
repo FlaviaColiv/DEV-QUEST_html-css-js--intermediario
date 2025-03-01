@@ -1,57 +1,57 @@
-const imagens = document.querySelectorAll('.slide');
-const setaVoltar = document.getElementById('seta-voltar');
-const setaAvancar = document.getElementById('seta-avancar');
+// const imagens = document.querySelectorAll('.slide');
+// const setaVoltar = document.getElementById('seta-voltar');
+// const setaAvancar = document.getElementById('seta-avancar');
 
-let imagemAtual = 0;
+// let imagemAtual = 0;
 
-setaAvancar.addEventListener('click', () => {
-  if (imagemAtual === imagens.length - 1) {
-    return;
-  }
-  imagemAtual++;
+// setaAvancar.addEventListener('click', () => {
+//   if (imagemAtual === imagens.length - 1) {
+//     return;
+//   }
+//   imagemAtual++;
   
-  esconderImagemAberta();
+//   esconderImagemAberta();
 
-  mostrarImagem();
+//   mostrarImagem();
 
-  mostrarOuEsconderSetas();
-})
+//   mostrarOuEsconderSetas();
+// })
 
-setaVoltar.addEventListener('click', () => {
-  if (imagemAtual === 0) {
-    return;
-  }
-  imagemAtual--;
+// setaVoltar.addEventListener('click', () => {
+//   if (imagemAtual === 0) {
+//     return;
+//   }
+//   imagemAtual--;
   
-  esconderImagemAberta();
+//   esconderImagemAberta();
 
-  mostrarImagem()
+//   mostrarImagem()
 
-  mostrarOuEsconderSetas()
-})
+//   mostrarOuEsconderSetas()
+// })
 
 
-function mostrarImagem() {
-  imagens[imagemAtual].classList.add('mostrar');
+// function mostrarImagem() {
+//   imagens[imagemAtual].classList.add('mostrar');
 
-}
-function esconderImagemAberta() {
-  const imagemAberta = document.querySelector('.mostrar');
-  imagemAberta.classList.remove('mostrar');
-}
+// }
+// function esconderImagemAberta() {
+//   const imagemAberta = document.querySelector('.mostrar');
+//   imagemAberta.classList.remove('mostrar');
+// }
 
-function mostrarOuEsconderSetas(){
-  const naoEhAPrimeiraImagem = imagemAtual !== 0;
-  if(naoEhAPrimeiraImagem){
-    setaVoltar.classList.add('opacidade');
-  }else{
-    setaVoltar.classList.remove('opacidade');
-  }
+// function mostrarOuEsconderSetas(){
+//   const naoEhAPrimeiraImagem = imagemAtual !== 0;
+//   if(naoEhAPrimeiraImagem){
+//     setaVoltar.classList.add('opacidade');
+//   }else{
+//     setaVoltar.classList.remove('opacidade');
+//   }
 
-  const chegouNaUltimaImagem = imagemAtual != 0 && imagemAtual === imagens.length - 1;
-  if(chegouNaUltimaImagem){
-    setaAvancar.classList.add('opacidade');
-  }else{
-    setaAvancar.classList.remove('opacidade');
-  }
-} 
+//   const chegouNaUltimaImagem = imagemAtual != 0 && imagemAtual === imagens.length - 1;
+//   if(chegouNaUltimaImagem){
+//     setaAvancar.classList.add('opacidade');
+//   }else{
+//     setaAvancar.classList.remove('opacidade');
+//   }
+// } 
