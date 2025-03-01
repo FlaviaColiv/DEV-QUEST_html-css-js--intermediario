@@ -1,21 +1,21 @@
-// const imagens = document.querySelectorAll('.slide');
-// const setaVoltar = document.getElementById('seta-voltar');
-// const setaAvancar = document.getElementById('seta-avancar');
+const imagens = document.querySelectorAll('.slide');
+const setaVoltar = document.getElementById('seta-voltar');
+const setaAvancar = document.getElementById('seta-avancar');
 
-// let imagemAtual = 0;
+let imagemAtual = 0;
 
-// setaAvancar.addEventListener('click', () => {
-//   if (imagemAtual === imagens.length - 1) {
-//     return;
-//   }
-//   imagemAtual++;
+setaAvancar.addEventListener('click', () => {
+  if (imagemAtual === imagens.length - 1) {
+    return;
+  }
+  imagemAtual++;
   
-//   esconderImagemAberta();
+  esconderImagemAberta();
 
-//   mostrarImagem();
+  mostrarImagem();
 
-//   mostrarOuEsconderSetas();
-// })
+  mostrarOuEsconderSetas();
+})
 
 // setaVoltar.addEventListener('click', () => {
 //   if (imagemAtual === 0) {
