@@ -1,2 +1,60 @@
 @import url('https://fonts.gogleapis.com/css2?family=Robotp:wght@300;400;500;700&display=swap');
 
+body {
+    font-family: "Robot", sans-serif;
+}
+
+html {
+    background-color: #E5E5E5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.acordeon {
+    width: 655px;
+    min-width: 347px;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.acordeon .ilustracao {
+    width: 278px;
+    height: 293px;
+    position: absolute;
+    left: -90px;
+}
+
+.acordeon .conteudo {
+    width: 90%;
+    padding-left: 225px;
+}
+
+.acordeon .conteudo h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.acordeon .itens {
+    list-style-type: none;
+}
+
+.acordeon .itens .item {
+    cursor: pointer;
+    background-image: url(../srcExercicio6/imagens/setaCinza.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 12px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+
