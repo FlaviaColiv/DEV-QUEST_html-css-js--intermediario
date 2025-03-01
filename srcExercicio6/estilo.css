@@ -36,8 +36,7 @@ main {
 
 .acordeon .conteudo {
     width: 90%;
-    padding-left: 225px;
-    padding-top: 70px;
+    padding: 70px 0 40px 225px;
 }
 
 .acordeon .conteudo h1 {
